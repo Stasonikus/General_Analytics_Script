@@ -1,0 +1,6 @@
+2026-04-16 16:45:02,705 | INFO | src.jobs.jobRF_IN_OUT | Файл: Количество Н�2026-04-16 16:45:06,529 | INFO | __main__ | Обработка успешно завершена: jobRF_IN_OUT
+6,458 | INFO | src.jobs.jobRF_IN_OUT | Найдена колонка: Start waypoint
+2026-04-16 16:45:06,458 | INFO | src.jobs.jobRF_IN_OUT | Найдена колонка: End waypoint
+2026-04-16 16:45:06,497 | INFO | src.jobs.jobRF_IN_OUT | После фильтра: 60
+2026-04-16 16:45:06,499 | INFO | src.jobs.jobRF_IN_OUT | ИТОГО: 60
+2026-04-16 16:45:06,525 | INFO | src.jobs.jobRF_IN_OUT | Готово: C:\Users\User\Desktop\Python Projects\Stat\src\out\rf_to_kz_tp_20260416.xlsx
