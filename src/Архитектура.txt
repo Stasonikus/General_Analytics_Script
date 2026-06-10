@@ -1,0 +1,28 @@
+src/
+│
+├── main.py
+│
+├── core/                 # базовая инфраструктура
+│   ├── config.py
+│   ├── logger.py
+│   └── get_logger.py
+│
+├── io/                   # работа с файлами
+│   └── io_excel.py
+│
+├── processing/           # обработка данных
+│   ├── transform.py
+│   └── normalize.py
+│
+├── jobs/                 # бизнес-логика
+│   ├── __init__.py
+│   ├── job_template.py
+│   ├── job_utils.py
+│   ├── job1.py
+│   ├── job2.py
+│   ├── job3.py
+│   ├── job_example.py
+│   └── jobs_1.py
+│
+└── utils/                # вспомогательные вещи
+    └── common.py
