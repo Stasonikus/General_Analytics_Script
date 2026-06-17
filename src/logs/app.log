@@ -1,10 +1,8 @@
-2026-06-10 14:33:17,298 | ERROR | src.jobs.jobRF_IN_OUT | ❌ Ошибка: В папке '2026-06-10 14:33:17,299 | ERROR | __main__ | В папке 'C:\Users\admin\Desktop\Project Python\General_Analytics_Script-main\src\in' не найдено файлов по маскам: Количество НП на ТП*.xlsx, количество нп на тп*.xlsx
-esktop\Project Python\General_Analytics_Script-main\src\jobs\jobRF_IN_OUT.py", line 103, in run
-    file = get_single_input_file(INPUT_PATTERNS)
-  File "C:\Users\admin\Desktop\Project Python\General_Analytics_Script-main\src\io\io_excel.py", line 70, in get_single_input_file
-    files = find_input_files(patterns=patterns, input_dir=input_dir)
-  File "C:\Users\admin\Desktop\Project Python\General_Analytics_Script-main\src\io\io_excel.py", line 51, in find_input_files
-    raise FileNotFoundError(
-        f"В папке '{input_dir}' не найдено файлов по маскам: {patterns_text}"
-    )
-FileNotFoundError: В папке 'C:\Users\admin\Desktop\Project Python\General_Analytics_Script-main\src\in' не найдено файлов по маскам: Количество НП на ТП*.xlsx, количество нп на тп*.xlsx
+2026-06-15 16:05:52,397 | INFO | src.jobs.job_seal_rotation | Начало выполнения 2026-06-15 16:05:56,575 | INFO | __main__ | Обработка успешно завершена: job_seal_rotation
+ers\admin\Desktop\Project Python\General_Analytics_Script-main\src\in\Выгрузка.xlsx
+2026-06-15 16:05:52,684 | INFO | src.jobs.job_seal_rotation | Выгрузка прочитана: строк=1634, колонок=23, колонок пломб=1
+2026-06-15 16:05:52,685 | INFO | src.jobs.job_seal_rotation | Чтение фильтра пломб из файла: Список.xlsx
+2026-06-15 16:05:52,717 | INFO | src.jobs.job_seal_rotation | Загружено пломб из фильтра: 1585
+2026-06-15 16:05:54,703 | INFO | src.jobs.job_seal_rotation | Выбрано направление возврата: Беларусь, дней возврата=10
+2026-06-15 16:05:55,359 | INFO | src.jobs.job_seal_rotation | Извлечено записей пломб после фильтрации: 1621
+2026-06-15 16:05:56,575 | INFO | src.jobs.job_seal_rotation | Результат записан: C:\Users\admin\Desktop\Project Python\General_Analytics_Script-main\src\out\Коэффициент_возврата_пломб_20260615_160556.xlsx

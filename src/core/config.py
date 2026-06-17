@@ -79,4 +79,12 @@ JOB_MODULES = {
         "module": "src.jobs.jobPROVERCA_NP_SORT_BY_DATE",
         "description": "Сравнение НП и помесячный отчет по статусу finished",
     },
+    "job_point_analytics": {
+        "module": "src.jobs.job_point_analytics",
+        "description": "Аналитика пломб по конечным точкам с группировкой адресов по областям/городам",
+    },
+    "job_seal_rotation": {
+        "module": "src.jobs.job_seal_rotation",
+        "description": "Расчет коэффициента ротации/возврата электронных пломб",
+    },
 }
